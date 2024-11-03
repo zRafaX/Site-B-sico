@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Básico em HTML</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Caso deseje adicionar estilos externos -->
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <h1>Meu Site</h1>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção principal -->
+    <main>
+        <!-- Seção de boas-vindas -->
+        <section id="home">
+            <h2>Bem-vindo ao Meu Site!</h2>
+            <p>Este é um site básico em HTML. Explore as seções abaixo para saber mais.</p>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor e designer com experiência em criação de sites e design gráfico. Gosto de desenvolver projetos que combinam criatividade e funcionalidade.</p>
+            <img src="https://via.placeholder.com/300" alt="Minha Foto">
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="services">
+            <h2>Meus Serviços</h2>
+            <div class="service">
+                <h3>Design Web</h3>
+                <p>Criação de sites responsivos e otimizados para diversos dispositivos.</p>
+            </div>
+            <div class="service">
+                <h3>Design Gráfico</h3>
+                <p>Desenvolvimento de identidade visual, logotipos e materiais promocionais.</p>
+            </div>
+            <div class="service">
+                <h3>Modelagem 3D</h3>
+                <p>Modelos 3D realistas para arquitetura e design de interiores.</p>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
